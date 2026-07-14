@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Experiments </title>
+    <style>
+        nav {
+            border: 1px red solid;
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="/cse134-hw2/experiments.html">experiments</a>
+    <a href="/cse134-hw2/index.html">HOME</a>
+    <a href="/cse134-hw2/projects.html">PROJECTS</a>
+    <a href="/cse134-hw2/experience.html">EXPERIENCE</a>
+    <a href="/cse134-hw2/timeline.html">TIMELINE</a>
+    <a href="/cse134-hw2/about.html">ABOUT</a>
+    <a href="/cse134-hw2/contact.html">CONTACT</a> 
+</nav>
+    
+<template>
+    <h1>Hello World</h1>
+    <p>This is a template</p>
+</template>
+<audio controls>
+<source src="/cse134-hw2/src/CORTIS - REDRED.mp3" type="audio/mp3">
+</audio>
+
+<video controls>
+    <source src="/cse134-hw2/src/CORTIS - FaSHioN (MV).mp4" type="video/mp4">
+</video>
+
+<canvas id="myCanvas" width="400" height="200"></canvas>
+
+<script>
+    const canvas = document.querySelector("#myCanvas");
+    const ctx = canvas.getContext("2d");
+
+    ctx.fillRect(50, 50, 100, 25);
+</script>
+</body>
+</html>

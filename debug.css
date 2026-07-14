@@ -1,0 +1,43 @@
+nav {
+    border: 1px red solid;
+}
+
+article {
+    border: 1px purple solid;
+}
+
+header {
+    border: 1px green solid;
+}
+
+footer {
+    border: 1px blue solid;
+}
+
+div {
+    border: 1px #DD00DD solid;
+}
+
+section {
+    border: 1px pink solid;
+}
+
+fieldset {
+    border: 1px black solid;
+}
+
+dialog {
+    border: 1px greenyellow solid;
+}
+
+image {
+    border: 1px orange solid;
+}
+
+main {
+    border: 1px indigo solid;
+}
+
+form {
+    border: 1px goldenrod solid;
+}
